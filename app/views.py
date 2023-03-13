@@ -7,7 +7,7 @@ This file contains the routes for your application.
 import os
 from app import app, db
 from flask import render_template, request, redirect, url_for, flash
-from .forms import Property, NewPropertyForm
+from .models import Property, NewPropertyForm
 from . import db
 from werkzeug.utils import secure_filename
 from flask import send_from_directory
